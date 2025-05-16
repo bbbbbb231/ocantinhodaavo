@@ -7,9 +7,9 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   // Format price with 2 decimal places and currency symbol
-  const formattedPrice = new Intl.NumberFormat('en-US', {
+  const formattedPrice = new Intl.NumberFormat('pt-PT', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'EUR',
   }).format(product.price);
 
   return (
@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <p className="text-gray-600 text-sm line-clamp-3 mb-4">{product.description}</p>
         
         <button className="w-full py-2 bg-blue-900 text-white rounded hover:bg-blue-800 transition-colors">
-          View Details
+          Ver Detalhes
         </button>
       </div>
     </div>

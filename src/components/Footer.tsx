@@ -9,54 +9,54 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <ShoppingBag className="h-6 w-6 mr-2" />
-              <span className="text-lg font-serif font-bold">Luxury Boutique</span>
+              <span className="text-lg font-serif font-bold">O Cantinho da Avó</span>
             </div>
             <p className="text-gray-300 text-sm">
-              Offering the finest selection of premium products since 2025.
+              Os melhores produtos caseiros desde 2025.
             </p>
           </div>
           
           <div>
-            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Home</a></li>
-              <li><a href="/products" className="text-gray-300 hover:text-white transition-colors">Products</a></li>
-              <li><a href="/about" className="text-gray-300 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Início</a></li>
+              <li><a href="/products" className="text-gray-300 hover:text-white transition-colors">Produtos</a></li>
+              <li><a href="/about" className="text-gray-300 hover:text-white transition-colors">Sobre Nós</a></li>
+              <li><a href="/contact" className="text-gray-300 hover:text-white transition-colors">Contacto</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Categories</h3>
+            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Categorias</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/category/clothing" className="text-gray-300 hover:text-white transition-colors">Clothing</a></li>
-              <li><a href="/category/accessories" className="text-gray-300 hover:text-white transition-colors">Accessories</a></li>
-              <li><a href="/category/jewelry" className="text-gray-300 hover:text-white transition-colors">Jewelry</a></li>
-              <li><a href="/category/home" className="text-gray-300 hover:text-white transition-colors">Home Decor</a></li>
+              <li><a href="/category/doces" className="text-gray-300 hover:text-white transition-colors">Doces</a></li>
+              <li><a href="/category/salgados" className="text-gray-300 hover:text-white transition-colors">Salgados</a></li>
+              <li><a href="/category/bebidas" className="text-gray-300 hover:text-white transition-colors">Bebidas</a></li>
+              <li><a href="/category/outros" className="text-gray-300 hover:text-white transition-colors">Outros</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-amber-400 font-serif text-lg font-semibold mb-4">Contacto</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>+1 (555) 123-4567</span>
+                <span>233 040 755</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>contact@luxuryboutique.com</span>
+                <span>cantinhodaavo@email.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1" />
-                <span>123 Luxury Avenue<br />New York, NY 10001</span>
+                <span>Rua Principal, 123<br />Coimbra, Portugal</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-blue-800 text-sm text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Luxury Boutique. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} O Cantinho da Avó. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
